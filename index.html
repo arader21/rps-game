@@ -4,23 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
   <title>Rock Paper Scissors Game</title>
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
-    <img src="">
+   
+     <h1>Rock Paper Scissors</h1>
+     <div class="header">
+    <img class="rps" src="rps.jpeg"></div>
     <div class="subhead">Choose One</div>
     <div class="options">
-        <button>rock</button>
-        <button>paper</button>
-        <button>scissors</button>
+        <button onclick="playGame('rock')">rock</button>
+        <button onclick="playGame('paper')">paper</button>
+        <button onclick="playGame('scissors')">scissors</button>
     </div>
-    <div class="playerChoice">You Choose</div>
-    <div class="computerChoice">Computer Choose</div>
-    <div class="outcome"></div>
-    <div class="playerWins">Player Wins</div>
-    <div class="computerWins">Computer wins</div>
+    <div id="playerDisplay">You Chose</div>
+    <div id="computerDisplay">Computer Chose</div>
+    <div id="resultDisplay">Outcome</div>
+    <div class="scoreDisplay">Player Wins</div>
+    <span id="playerScoreDisplay">0</span>
+    <div class="scoreDisplay">Computer wins</div>
+    <span id="computerScoreDisplay">0</span>
+     <script src="script.js"></script>
 </body>
 </html>
 	
