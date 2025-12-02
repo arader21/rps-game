@@ -29,7 +29,7 @@ else{
 
 }
 playerDisplay.textContent = `PLAYER: ${playerChoice}`;
-computerDisplay.textContent = `Computer: ${playerChoice}`;
+computerDisplay.textContent = `Computer: ${computerChoice}`;
 resultDisplay.textContent = result;
 
 switch(result){
